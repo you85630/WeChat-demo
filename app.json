@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/page2/page2",
+    "pages/echarts/echarts"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat-demo",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "",
+    "selectedColor": "",
+    "backgroundColor": "",
+    "borderStyle": "",
+    "position": "bottom",
+    "list": [
+      {
+        "iconPath": "",
+        "selectedIconPath": "",
+        "pagePath": "pages/echarts/echarts",
+        "text": "图表"
+      },
+      {
+        "iconPath": "",
+        "selectedIconPath": "",
+        "pagePath": "pages/page2/page2",
+        "text": "页面二"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+<!--pages/page2/page2.wxml-->
+<view class="wrapper">
+  <text>这个是父组件</text>
+  <component-tag-name value="{{msg}}" bindtap="onClick" bindchange="onChange" ></component-tag-name>
+</view>

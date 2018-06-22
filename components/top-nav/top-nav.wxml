@@ -1,0 +1,5 @@
+<!--component/top-nav/top-nav.wxml-->
+<view class="wrapper">
+  <view bindtap="change">这个是子组件</view>
+  <view>{{value}}</view>
+</view>
