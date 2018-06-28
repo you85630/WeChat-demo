@@ -6,6 +6,7 @@ Page({
    */
   data: {
     ec: {
+      animation: false,
       options: {
         xAxis: {
           type: 'category',

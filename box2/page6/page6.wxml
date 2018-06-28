@@ -1,2 +1,13 @@
 <!--pages/page6/page6.wxml-->
-<text>pages/page6/page6.wxml</text>
+<view class="text">位置：{{map}}</view>
+
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <view wx:else>
+      <view class="text">用户信息：</view>
+      <image class="img" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <view class="text">{{userInfo.nickName}}</view>
+    </view>
+  </view>
+</view>

@@ -9,10 +9,12 @@ Page({
     list: [
       {
         name: 'tab1',
-        text:'123'
+        text: ["one",'two','three'],
+        show: false
       }, {
         name: 'tab2',
-        text: '456'
+        text: [1, 2, 3],
+        show: false
       }
     ]
   },
@@ -21,6 +23,14 @@ Page({
     let Inx = e.currentTarget.dataset.text
     this.setData({
       show: Inx + 1
+    })
+  },
+
+  showTab(e) {
+    let Inx = e.currentTarget.dataset.text
+    let now = this.data.list[Inx].show
+    this.setData({
+      ['list[' + Inx + '].show']: !now
     })
   },
 

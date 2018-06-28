@@ -20,3 +20,18 @@
     }
   }
 }
+
+.box{
+  margin-top: 40rpx;
+  .li{
+    border-bottom: 1rpx solid #ccc;
+    .name{
+      background-color: #fc0;
+      color: #fff;
+      font-size: 26rpx;
+    }
+    .text{
+      font-size: 26rpx;
+    }
+  }
+}

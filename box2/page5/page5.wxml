@@ -13,4 +13,16 @@
           class="text"
           wx:if="{{show===index+1}}">{{item.text}}</view>
   </view>
+
+  <view class="box">
+    <view class="li" wx:for="{{list}}" wx:key="{{index}}">
+      <view class="name" bindtap="showTab" data-text="{{index}}">{{item.name}}</view>
+      <view class="text"
+            wx:for="{{item.text}}"
+            wx:key="{{idx}}"
+            wx:for-index="idx"
+            wx:for-item="i"
+            wx:if="{{item.show}}">{{i}}</view>
+    </view>
+  </view>
 </view>
