@@ -1,5 +1,11 @@
 <!--pages/page2/page2.wxml-->
 <view class="wrapper">
-  <view class="parent">这里是父组件：{{childmsg}}</view>
-  <top-nav value="{{msg}}" bindchildmsg="childMsg"></top-nav>
+  <view class="parent">
+    <text class="fa fa-tree"></text>
+    这里是父组件：{{childmsg}}
+  </view>
+
+  <top-nav value="{{msg}}" bindchildmsg="childMsg">
+    <text class="fa fa-tree"></text>
+  </top-nav>
 </view>
