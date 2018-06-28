@@ -9,8 +9,10 @@
     <text class="fa fa-tree"></text>
   </top-nav>
 
-  <navigator class="link" url="/box1/page3/page3">跳转到第三页</navigator>
-  <navigator class="link" url="/box1/page4/page4">跳转到第四页</navigator>
-  <navigator class="link" url="/box1/page5/page5">跳转到第五页</navigator>
-  <navigator class="link" url="/box1/page6/page6">跳转到第六页</navigator>
+  <view class="link-box">
+    <navigator hover-class="none" class="link" url="/box1/page3/page3">跳转到第三页</navigator>
+    <navigator hover-class="none" class="link" url="/box1/page4/page4">跳转到第四页</navigator>
+    <navigator hover-class="none" class="link" url="/box2/page5/page5">跳转到第五页</navigator>
+    <navigator hover-class="none" class="link" url="/box2/page6/page6">跳转到第六页</navigator>
+  </view>
 </view>

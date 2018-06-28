@@ -1,1 +1,1 @@
-.child{margin-top:10rpx;margin-left:20rpx;padding:0 4rpx;border:1rpx solid #ccc;font-size:26rpx}
+.child{box-sizing:border-box;margin:20rpx auto;width:90%;border:1rpx solid #000}.text{padding:0 4rpx;font-size:26rpx}.btn{box-sizing:border-box;padding:8rpx 0;background-color:#fc0;color:#fff;text-align:center;font-size:26rpx}

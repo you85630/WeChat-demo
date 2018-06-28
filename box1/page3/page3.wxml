@@ -1,2 +1,11 @@
 <!--pages/page3/page3.wxml-->
-<text>pages/page3/page3.wxml</text>
+<view class="list">
+  <view class="li" wx:for="{{list}}" wx:key="{{index}}">{{item}}</view>
+
+  <view class="title">修改索引及关键字</view>
+  <view class="li"
+        wx:for="{{list}}"
+        wx:key="{{idx}}"
+        wx:for-item="i"
+        wx:for-index="idx">{{idx}}-{{i}}</view>
+</view>

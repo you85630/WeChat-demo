@@ -1,2 +1,16 @@
 <!--pages/page5/page5.wxml-->
-<text>pages/page5/page5.wxml</text>
+<view class="list">
+  <view class="name-box">
+    <view wx:for="{{list}}"
+          wx:key="{{index}}"
+          class="name {{show===index+1?'active':''}}"
+          bindtap="tabLi"
+          data-text="{{index}}">{{item.name}}</view>
+  </view>
+  <view class="text-box">
+    <view wx:for="{{list}}"
+          wx:key="{{index}}"
+          class="text"
+          wx:if="{{show===index+1}}">{{item.text}}</view>
+  </view>
+</view>

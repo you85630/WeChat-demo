@@ -1,1 +1,1 @@
-/* pages/page4/page4.wxss */
+.text{margin-top:20rpx;text-align:center;font-size:26rpx}.btn-box{text-align:center}.btn-box .btn{margin-top:20rpx;border-radius:0}

@@ -4,11 +4,14 @@
   font-weight: bold;
   font-size: 30rpx;
 }
-.link{
-  margin-top: 20rpx;
-  padding: 8rpx 0;
-  background-color: #fc0;
-  color: #fff;
-  text-align: center;
-  font-size: 26rpx;
+.link-box{
+  margin-top: 100rpx;
+  .link{
+    margin-top: 20rpx;
+    padding: 8rpx 0;
+    background-color: #fc0;
+    color: #fff;
+    text-align: center;
+    font-size: 26rpx;
+  }
 }

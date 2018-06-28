@@ -1,0 +1,22 @@
+.list{
+  .active{
+    background-color: #fc0;
+    color: #fff;
+  }
+  .name-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1rpx solid #000;
+    .name{
+      width: 50%;
+      text-align: center;
+      font-size: 26rpx;
+    }
+  }
+  .text-box{
+    .text{
+      font-size: 26rpx;
+    }
+  }
+}

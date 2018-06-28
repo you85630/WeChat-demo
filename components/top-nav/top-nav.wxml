@@ -1,9 +1,9 @@
 <!--component/top-nav/top-nav.wxml-->
 <view class="child">
-  <view>
+  <view class="text">
     <text class="fa fa-tree"></text> <!-- 这一句并没有起作用 -->
     <slot></slot>   <!-- 可以用插槽代替 -->
     这里是子组件：{{value}}
   </view>
-  <view bindtap="childClick">点击这里提交数据到父组件</view>
+  <view class="btn" bindtap="childClick">点击这里提交数据到父组件</view>
 </view>
