@@ -9,6 +9,7 @@
     justify-content: space-around;
     border-bottom: 1rpx solid #000;
     .name{
+      padding: 14rpx 0;
       width: 50%;
       text-align: center;
       font-size: 26rpx;
@@ -22,12 +23,14 @@
 }
 
 .box{
-  margin-top: 40rpx;
+  margin: 40rpx 0;
   .li{
     border-bottom: 1rpx solid #ccc;
     .name{
+      padding: 14rpx 0;
       background-color: #fc0;
       color: #fff;
+      text-align: center;
       font-size: 26rpx;
     }
     .text{
