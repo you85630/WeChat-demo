@@ -1,5 +1,5 @@
 {
   "usingComponents":{
-    "component-tag-name":"/components/top-nav/top-nav"
+    "top-nav":"/components/top-nav/top-nav"
   }
 }

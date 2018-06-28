@@ -1,5 +1,5 @@
 <!--component/top-nav/top-nav.wxml-->
-<view class="wrapper">
-  <view bindtap="change">这个是子组件</view>
-  <view>{{value}}</view>
+<view class="child">
+  <view>这里是子组件：{{value}}</view>
+  <view bindtap="childClick">点击这里提交数据到父组件</view>
 </view>

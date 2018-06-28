@@ -1,6 +1,4 @@
-// pages/echarts/echarts.js
-const app = getApp()
-
+// pages/page1/page1.js
 Page({
 
   /**
@@ -28,6 +26,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+
   },
 
   /**

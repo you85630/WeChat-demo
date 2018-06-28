@@ -1,7 +1,7 @@
 {
   "pages": [
     "pages/page2/page2",
-    "pages/echarts/echarts"
+    "pages/page1/page1"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -10,23 +10,23 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color": "",
-    "selectedColor": "",
-    "backgroundColor": "",
-    "borderStyle": "",
+    "color": "#ccc",
+    "selectedColor": "#333",
+    "backgroundColor": "#fff",
+    "borderStyle": "#f5f5f5",
     "position": "bottom",
     "list": [
       {
-        "iconPath": "",
-        "selectedIconPath": "",
-        "pagePath": "pages/echarts/echarts",
-        "text": "图表"
+        "iconPath": "imgs/icon-1.png",
+        "selectedIconPath": "imgs/icon-1.png",
+        "pagePath": "pages/page2/page2",
+        "text": "首页"
       },
       {
-        "iconPath": "",
-        "selectedIconPath": "",
-        "pagePath": "pages/page2/page2",
-        "text": "页面二"
+        "iconPath": "imgs/icon-2.png",
+        "selectedIconPath": "imgs/icon-2.png",
+        "pagePath": "pages/page1/page1",
+        "text": "图表"
       }
     ]
   }

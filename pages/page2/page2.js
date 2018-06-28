@@ -5,16 +5,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-    msg: '这里是传递的数据',
-    click: "这里是触发的事件"
+    msg: '这是父组件传递的值',
+    childmsg:''
   },
-  onClick() {
+
+  childMsg(e) {
+    let msg = e.detail
     this.setData({
-      msg:this.data.click
+      childmsg:msg
     })
-  },
-  onChange(e) {
-    console.log(e.detail);
   },
 
   /**

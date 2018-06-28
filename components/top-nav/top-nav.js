@@ -11,16 +11,16 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    msg:'这里是子组件传递的值'
   },
 
   /**
    * 组件的方法列表
    */
   methods: {
-    change() {
-      var name = '这里是监控的事件'
-      this.triggerEvent('change', name)
+    childClick() {
+      let msg = this.data.msg
+      this.triggerEvent('childmsg',msg)
     }
   }
 })
