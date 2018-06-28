@@ -6,8 +6,8 @@ Page({
    */
   data: {
     ec: {
-      animation: false,
       options: {
+        animation: false,
         xAxis: {
           type: 'category',
           data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
