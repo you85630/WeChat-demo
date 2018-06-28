@@ -3,11 +3,15 @@
 
 <view class="container">
   <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <button type="primary" class="btn"
+            wx:if="{{!hasUserInfo && canIUse}}"
+            open-type="getUserInfo"
+            bindgetuserinfo="getUserInfo">获取头像昵称</button>
     <view wx:else>
       <view class="text">用户信息：</view>
       <image class="img" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <view class="text">{{userInfo.nickName}}</view>
     </view>
   </view>
+  <button class="btn martop" type="warn" bindtap="clearUser">清空</button>
 </view>

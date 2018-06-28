@@ -1,7 +1,4 @@
 <!--pages/page4/page4.wxml-->
-<view class="show">
-  <view class="text" wx:if="{{show}}">是否显示该行</view>
-  <view class="btn-box">
-      <button class="btn" size="mini" type="primary" bindtap="showPrev">点击显示上一行</button>
-  </view>
-</view>
+<view class="text">位置：{{msg}}</view>
+<button class="btn" type="primary" bindtap="start">摇一摇</button>
+<button class="btn" type="warn" bindtap="stop">停止</button>

@@ -5,12 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-    show:false
+    msg:[]
   },
 
-  showPrev() {
-    this.setData({
-      show:!this.data.show
+  start() {
+    this.changge()
+  },
+
+  stop() {
+    wx.stopAccelerometer()
+  },
+
+  changge() {
+    wx.onAccelerometerChange((res) => {
+      let x = res.x.toFixed(2)
+      let y = res.y.toFixed(2)
+      let z = res.z.toFixed(2)
+      let now = [x, y, z]
+      this.setData({
+        msg: now
+      })
     })
   },
 

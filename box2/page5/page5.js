@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    show:1,
+    show:false,
+    select:1,
     list: [
       {
         name: 'tab1',
@@ -22,7 +23,7 @@ Page({
   tabLi(e) {
     let Inx = e.currentTarget.dataset.text
     this.setData({
-      show: Inx + 1
+      select: Inx + 1
     })
   },
 
@@ -31,6 +32,12 @@ Page({
     let now = this.data.list[Inx].show
     this.setData({
       ['list[' + Inx + '].show']: !now
+    })
+  },
+
+  showPrev() {
+    this.setData({
+      show:!this.data.show
     })
   },
 

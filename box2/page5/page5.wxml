@@ -3,7 +3,7 @@
   <view class="name-box">
     <view wx:for="{{list}}"
           wx:key="{{index}}"
-          class="name {{show===index+1?'active':''}}"
+          class="name {{select===index+1?'active':''}}"
           bindtap="tabLi"
           data-text="{{index}}">{{item.name}}</view>
   </view>
@@ -11,7 +11,7 @@
     <view wx:for="{{list}}"
           wx:key="{{index}}"
           class="text"
-          wx:if="{{show===index+1}}">{{item.text}}</view>
+          wx:if="{{select===index+1}}">{{item.text}}</view>
   </view>
 
   <view class="box">
@@ -26,3 +26,10 @@
     </view>
   </view>
 </view>
+
+<view class="show">
+    <view class="text" wx:if="{{show}}">是否显示该行</view>
+    <view class="btn-box">
+        <button class="btn" size="mini" type="primary" bindtap="showPrev">点击显示上一行</button>
+    </view>
+  </view>

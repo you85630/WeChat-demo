@@ -28,6 +28,14 @@ Page({
     })
   },
 
+  clearUser() {
+    this.setData({
+      userInfo: {},
+      hasUserInfo: false,
+      canIUse: wx.canIUse('button.open-type.getUserInfo')
+    })
+  },
+
   getUserInfo(e) {
     app.globalData.userInfo = e.detail.userInfo
     this.setData({

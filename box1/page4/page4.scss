@@ -1,12 +1,11 @@
 .text{
-  margin-top: 20rpx;
   text-align: center;
   font-size: 26rpx;
 }
-.btn-box{
-  text-align: center;
-  .btn{
-    margin-top: 20rpx;
-    border-radius: 0;
-  }
+.btn{
+  margin-top: 20rpx;
+  padding: 8rpx 0;
+  width: 80%;
+  border-radius: 0;
+  line-height: 1.4;
 }

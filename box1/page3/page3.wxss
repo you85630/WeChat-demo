@@ -1,1 +1,1 @@
-.list .li{margin-top:10rpx;padding:8rpx 0;background-color:#fc0;text-align:center;font-size:26rpx}.list .title{margin-top:20rpx;text-align:center;font-size:26rpx}
+.list .li{margin-top:10rpx;padding:14rpx 0;background-color:#fc0;text-align:center;font-size:26rpx}.list .title{margin-top:20rpx;text-align:center;font-size:26rpx}
