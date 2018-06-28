@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/page2/page2",
-    "pages/page1/page1"
+    "pages/page1/page1",
+    "pages/page2/page2"
   ],
   "subPackages": [
     {
@@ -35,13 +35,12 @@
       {
         "iconPath": "imgs/icon-1.png",
         "selectedIconPath": "imgs/icon-1.png",
-        "pagePath": "pages/page2/page2",
+        "pagePath": "pages/page1/page1",
         "text": "首页"
-      },
-      {
+      },{
         "iconPath": "imgs/icon-2.png",
         "selectedIconPath": "imgs/icon-2.png",
-        "pagePath": "pages/page1/page1",
+        "pagePath": "pages/page2/page2",
         "text": "图表"
       }
     ]

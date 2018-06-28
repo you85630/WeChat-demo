@@ -1,1 +1,1 @@
-.parent{padding:0 4rpx;border:1rpx solid #000;font-weight:bold;font-size:30rpx}.link{margin-top:20rpx;padding:8rpx 0;background-color:#fc0;color:#fff;text-align:center;font-size:26rpx}
+.echarts{width:100%;height:800rpx;background-color:#fff}.echarts ec-canvas{width:100%;height:100%}

@@ -1,16 +1,4 @@
 <!--pages/page2/page2.wxml-->
-<view class="wrapper">
-  <view class="parent">
-    <text class="fa fa-tree"></text>
-    这里是父组件：{{childmsg}}
-  </view>
-  <!-- 引用自定义组件 -->
-  <top-nav value="{{msg}}" bindchildmsg="childMsg">
-    <text class="fa fa-tree"></text>
-  </top-nav>
-
-  <navigator class="link" url="/box1/page3/page3">跳转到第三页</navigator>
-  <navigator class="link" url="/box1/page4/page4">跳转到第四页</navigator>
-  <navigator class="link" url="/box1/page5/page5">跳转到第五页</navigator>
-  <navigator class="link" url="/box1/page6/page6">跳转到第六页</navigator>
+<view class="echarts">
+  <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
 </view>

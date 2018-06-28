@@ -1,5 +1,9 @@
 {
-  "usingComponents":{
-    "top-nav":"/components/top-nav/top-nav"
-  }
+  "usingComponents": {
+    "ec-canvas": "/components/ec-canvas/ec-canvas"
+  },
+  "navigationBarTitleText": "echarts展示",
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundTextStyle": "light",
+  "navigationBarTextStyle": "black"
 }
